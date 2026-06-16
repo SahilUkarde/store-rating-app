@@ -1,0 +1,15 @@
+.stars { display: inline-flex; gap: 2px; }
+.star {
+  background: none;
+  border: none;
+  font-size: 22px;
+  color: #cbd5e1;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.1s, transform 0.1s;
+  line-height: 1;
+}
+.star:hover { transform: scale(1.15); }
+.star.filled { color: #f59e0b; }
+.star:disabled { cursor: default; }
+.star:disabled:hover { transform: none; }

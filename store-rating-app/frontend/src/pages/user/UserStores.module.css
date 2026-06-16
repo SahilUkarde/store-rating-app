@@ -1,0 +1,20 @@
+.title { font-size: 28px; font-weight: 700; color: var(--text); }
+.subtitle { color: var(--text-muted); margin-top: 4px; margin-bottom: 24px; font-size: 15px; }
+.filters { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 28px; align-items: center; }
+.filters input { width: 200px; }
+.loading, .empty { color: var(--text-muted); padding: 40px 0; text-align: center; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 20px; }
+
+.card { background: white; border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); transition: box-shadow 0.2s; }
+.card:hover { box-shadow: var(--shadow-md); }
+.cardHeader { display: flex; justify-content: space-between; align-items: flex-start; padding: 20px 20px 16px; border-bottom: 1px solid var(--border); gap: 12px; }
+.storeName { font-size: 16px; font-weight: 700; color: var(--text); margin-bottom: 4px; }
+.storeAddress { font-size: 13px; color: var(--text-muted); }
+.overallRating { text-align: right; flex-shrink: 0; }
+.ratingNum { font-size: 16px; font-weight: 700; color: var(--text); display: block; }
+.ratingCount { font-size: 12px; color: var(--text-muted); }
+.noRating { font-size: 12px; color: var(--text-muted); }
+.ratingSection { padding: 16px 20px; display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.ratingLabel { font-size: 12px; font-weight: 600; color: var(--text-muted); margin-bottom: 6px; }
+.ratingActions { display: flex; align-items: center; gap: 10px; }
+.success { font-size: 12px; color: var(--success); font-weight: 600; }

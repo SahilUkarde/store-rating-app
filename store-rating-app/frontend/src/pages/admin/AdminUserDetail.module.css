@@ -1,0 +1,12 @@
+.page { max-width: 700px; }
+.header { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+.title { font-size: 24px; font-weight: 700; color: var(--text); }
+.loading, .error { color: var(--text-muted); padding: 20px 0; }
+.grid { display: flex; gap: 28px; align-items: flex-start; }
+.avatar { width: 72px; height: 72px; border-radius: 50%; background: var(--primary); color: white; display: flex; align-items: center; justify-content: center; font-size: 30px; font-weight: 700; flex-shrink: 0; }
+.info { flex: 1; }
+.name { font-size: 22px; font-weight: 700; color: var(--text); margin-bottom: 8px; }
+.fields { margin-top: 20px; display: flex; flex-direction: column; gap: 12px; }
+.row { display: flex; gap: 16px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.rowLabel { width: 140px; font-size: 13px; font-weight: 600; color: var(--text-muted); flex-shrink: 0; }
+.rowValue { font-size: 14px; color: var(--text); display: flex; align-items: center; }
