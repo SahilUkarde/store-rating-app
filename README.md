@@ -1,5 +1,7 @@
 # StoreRate — Full-Stack Rating Platform
 
+> Full-stack store rating platform built with NestJS, PostgreSQL, and React.
+
 A complete web application for rating registered stores, built with:
 - **Backend**: NestJS + TypeORM
 - **Database**: PostgreSQL
@@ -168,3 +170,10 @@ JWT_SECRET=your_strong_secret_here
 PORT=4000
 FRONTEND_URL=http://localhost:3000
 ```
+
+---
+
+## Author
+
+**Sahil Ukarde**
+BE IT Graduate (2025) | Python Developer | Web Developer | AI/ML
