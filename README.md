@@ -175,5 +175,6 @@ FRONTEND_URL=http://localhost:3000
 
 ## Author
 
-**Sahil Ukarde**
-BE IT Graduate (2025) | Python Developer | Web Developer | AI/ML
+Sahil Ukarde
+BE IT Graduate (2025) 
+Python Developer | Web Developer | AI/ML
